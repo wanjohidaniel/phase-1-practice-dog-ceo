@@ -36,13 +36,10 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-    // ... (previous code for fetching images and breeds)
-  
-    // Change font color on click
-    const breedListItems = document.querySelectorAll("ul li");
+  const breedListItems = document.querySelectorAll("ul li");
     breedListItems.forEach(item => {
       item.addEventListener("click", function() {
-        item.style.color = "blue"; // Change the color to your preferred choice
+        item.style.color = "blue"; 
       });
     });
   
